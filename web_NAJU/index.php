@@ -12,7 +12,7 @@
     <div class="main container-fluid">
         <!-- pag de login -->
         <div class="container" id="card-login">
-            <div class="row justify-content-center" id="div-ssla">
+            <div class="row justify-content-center" id="div-espacoForms">
                 <div class="col-md-6">
                     <h2 class="text-justify" id="titulo">Bem-vindo de volta!</h2>
                     <h3 class="text-justify" id="subtitulo">Escreva suas credenciais para acessar sua conta</h3>
