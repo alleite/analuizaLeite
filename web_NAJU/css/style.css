@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#div-ssla {
+    width: 25vw;
+    height: 90vh;
+    margin-top: 30wh;
+    margin-left: 25%;
+}
+
+#card-login {
+    text-align: center;
+    width: 50vw;
+    height: 100vh;
+}
+
+.imagem_naju {
+    position: relative;
+    height: 100vh;
+    width: 50vw;
+    background-image: url(../img/NAJU.jpg);
+    background-size: cover;
+}
+
+#titulo {
+    font-family: 'Urbanist';
+    text-align:left;
+    display: flex;
+    flex-direction: row;
+    font-size: 36px;
+}
+
+#subtitulo {
+    position: relative;
+    font-family: 'Urbanist';
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    font-size: 21px;
+}
+
+
+#estilo_botao {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 4vh;
+    border-radius: 10px;
+    margin-top: 5vh;
+}
+
+#estilo_botao text{
+color: #ffffff;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+}
+
+#forms_estilo {
+    font-family: 'Poppins';
+    font-size: 20px;
+    text-align: left;
+    margin-top: 7vh;
+
+}
+
+#text-input {
+    width: 98%;
+    height: 3vh;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #D9D9D9;
+}
+
