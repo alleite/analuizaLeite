@@ -70,14 +70,14 @@ function imageGallery($action = null, $imageDir) {
             echo "<img src='{$imageDir}$image' alt='Image' class='img-fluid' style='max-width: 250px; max-height: 250px; margin-right: 10px; margin-bottom: 10px; margin-top: 50px'>";
         }
     } else {
-        echo "<p class='text-center text-white fs-5'>Não há imagens na galeria.</p>";
+        echo "<p class='text-center text-dark fs-5'>Não há imagens na galeria.</p>";
     }
     echo "</div>";
 
     echo "<p class='text-center text-dark mt-5 fs-5'>Total de imagens: $image_count</p>";
 }
 
-// Capturar a ação via botão
+// Capturar a ação via botão    
 $action = isset($_POST['action']) ? $_POST['action'] : null;
 
 ?>
@@ -103,7 +103,7 @@ $action = isset($_POST['action']) ? $_POST['action'] : null;
         <button type="submit" name="action" value="sort" class="btn  text-center me-3">Ordenar Imagens</button>
             <button type="submit" name="action" value="add" class="btn text-center me-3">Adicionar Imagem</button>
             <button type="submit" name="action" value="duplicate" class="btn text-center">Duplicar Última Imagem</button>
-            <button type="submit" name="action" value="remove" class="btn text-center ms-3">Remover Primeira Imagem</button>
+            <button type="submit" name="action" value="remove" class="btn text-center ms-3">Remover a Primeira Imagem</button>
             <button type="submit" name="action" value="reverse" class="btn text-center ms-3">Inverter Ordem das Imagens</button>
         </form>
         </div>
